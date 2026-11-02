@@ -1,0 +1,59 @@
+{
+    "author": "prefixcombo",
+    "dependencies": {},
+    "keywords": [],
+    "name": "clock-room",
+    "pebble": {
+        "displayName": "Clock Room",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/clock_room_full_size.png",
+                    "name": "CLOCK_ROOM_FULL",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/clock_room_small_size.png",
+                    "name": "CLOCK_ROOM_SMALL",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/hour_hand.png",
+                    "name": "HOUR_HAND",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/minute_hand.png",
+                    "name": "MINUTE_HAND",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/goat.png",
+                    "menuIcon": true,
+                    "name": "GOAT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk",
+            "emery",
+            "gabbro"
+        ],
+        "uuid": "1dddfaa4-0d02-4e40-8e7c-92a6f2919918",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.1"
+}
